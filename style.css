@@ -8,6 +8,11 @@
     padding:130px 50px 130px 50px;
 }
 
+#text_area2 {
+    padding:100px 50px 50px 50px;
+}
+
+
 /* header text animation */
 
 /**
@@ -26,6 +31,10 @@ h1 {
   font-weight:300;
   line-height: 1.5;
   font-family: 'roboto',sans-serif;
+}
+
+.module h1 {
+    text-align:center;
 }
   
   
@@ -114,6 +123,10 @@ h1 {
 }
 .videoBlock video:nth-child(3) {
   animation-delay: 0.9s;
+}
+
+.videoBlock video:nth-child(4) {
+  animation-delay: 1.2s;
 }
 /**
  * Animations
@@ -210,7 +223,7 @@ video.bgvid {
     min-height:200px;
     
     height:500px;*/
-    opacity:0.4;
+    opacity:0.45;
     width:100%;
     overflow:hidden;
     position:relative;
